@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Inconsolata:wght@300&family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho {
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: red;
+    align-items: center;
+    font-family: "Lobster";
+    color: aquamarine;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(0, 119, 255), rgb(174, 0, 255));
+    padding: 10px;
+    text-shadow: 10px 10px 15px pink;
+    font-size: 50px;
+}
+
+.navegacao {
+
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-image: linear-gradient(to right, rgba(88, 85, 85, 0.918), rgb(81, 80, 82));
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    width: 100%;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.button2:hover {
+    box-shadow: 0 20px 16px 0 rgba(0, 0, 0, 0.719), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button3:hover {
+    box-shadow: 0 20px 16px 0 rgba(0, 0, 0, 0.719), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button4:hover{
+    box-shadow: 0 20px 16px 0 rgba(0, 0, 0, 0.719), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.queridinhos{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+    font-family: "Lobster";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 110, 255, 0.664);
+    text-shadow: 5px 5px 5px rgb(133, 4, 172);
+    font-size: 30px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+
+}
+
+.esquerda {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+
+}
+
+.nomecomida{
+    font-family: "Dynapuff";
+    text-align: center;
+    padding: 20px;
+
+}
+
+.nomecomidas{
+    font-family: "Dynapuff";
+    text-align: center;
+    padding: 20px;
+
+}
+
+.imagem {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 45px;
+
+}
+
+.img {
+    border: 10px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    display: flex;
+}
+
+.img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.texto {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 50px;
+    font-family: "DynaPuff";
+    font-size: 18px;
+}
+
+.textogrande{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    font-family: "DynaPuff";
+    font-size: 15px;
+
+}
+
+
+.direita {
+    border: 1px solid black;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredientes{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    font-family: "DynaPuff";
+    font-size: 20px;
+}
+
+.ingredientesgrandes{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+    font-family: "DynaPuff";
+    font-size: 14px;
+}
+
+.rodape {
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to right, rgba(88, 85, 85, 0.918), rgb(81, 80, 82));
+    display: flex;
+    margin-bottom: 20px;
+
+
+}
